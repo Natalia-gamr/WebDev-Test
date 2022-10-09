@@ -581,6 +581,30 @@ video {
   left: 0.25rem;
 }
 
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-16 {
+  top: 4rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
+.right-10 {
+  right: 2.5rem;
+}
+
+.right-16 {
+  right: 4rem;
+}
+
+.right-20 {
+  right: 5rem;
+}
+
 .z-20 {
   z-index: 20;
 }
@@ -634,6 +658,11 @@ video {
   margin-bottom: 2rem;
 }
 
+.my-\[37px\] {
+  margin-top: 37px;
+  margin-bottom: 37px;
+}
+
 .mb-7 {
   margin-bottom: 1.75rem;
 }
@@ -676,6 +705,22 @@ video {
 
 .mb-2\.5 {
   margin-bottom: 0.625rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
 }
 
 .block {
@@ -734,6 +779,18 @@ video {
   height: auto;
 }
 
+.h-\[791px\] {
+  height: 791px;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-\[517px\] {
+  height: 517px;
+}
+
 .max-h-\[233px\] {
   max-height: 233px;
 }
@@ -786,6 +843,18 @@ video {
   width: 516px;
 }
 
+.w-\[517px\] {
+  width: 517px;
+}
+
+.w-\[791px\] {
+  width: 791px;
+}
+
+.min-w-\[542px\] {
+  min-width: 542px;
+}
+
 .max-w-\[1024px\] {
   max-width: 1024px;
 }
@@ -804,6 +873,58 @@ video {
 
 .max-w-full {
   max-width: 100%;
+}
+
+.max-w-\[791px\] {
+  max-width: 791px;
+}
+
+.max-w-\[542px\] {
+  max-width: 542px;
+}
+
+.max-w-\[55px\] {
+  max-width: 55px;
+}
+
+.max-w-\[75px\] {
+  max-width: 75px;
+}
+
+.max-w-\[80px\] {
+  max-width: 80px;
+}
+
+.max-w-\[290px\] {
+  max-width: 290px;
+}
+
+.max-w-\[295px\] {
+  max-width: 295px;
+}
+
+.max-w-\[297px\] {
+  max-width: 297px;
+}
+
+.max-w-\[300px\] {
+  max-width: 300px;
+}
+
+.max-w-\[305px\] {
+  max-width: 305px;
+}
+
+.max-w-\[309px\] {
+  max-width: 309px;
+}
+
+.max-w-\[315px\] {
+  max-width: 315px;
+}
+
+.max-w-\[320px\] {
+  max-width: 320px;
 }
 
 .flex-1 {
@@ -876,6 +997,18 @@ video {
 
 .border-2 {
   border-width: 2px;
+}
+
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.border-b-\[3px\] {
+  border-bottom-width: 3px;
 }
 
 .border-gray {
@@ -1007,12 +1140,26 @@ video {
   line-height: 16px;
 }
 
+.text-3xl {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.text-xl {
+  font-size: 16px;
+  line-height: 18px;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
 .font-normal {
   font-weight: 400;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .text-white {

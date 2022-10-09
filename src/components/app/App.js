@@ -1,3 +1,4 @@
+import AboutUs from "../aboutUs/AboutUs";
 import Advantage from "../advantage/Advantage";
 import AutoForm from "../autoForm/AutoForm";
 import Footer from "../footer/Footer";
@@ -9,6 +10,7 @@ const App = () => {
             <Header/>
             <AutoForm/>
             <Advantage/>
+            <AboutUs/>
         </>
         
     )

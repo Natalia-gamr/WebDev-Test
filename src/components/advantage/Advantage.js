@@ -7,8 +7,8 @@ import Slider from '../slider/Slider';
 
 const Advantage = () => {
     return (
-        <div className="relative max-w-[1024px] mx-auto flex">
-            <div className='relative -z-10 w-full h-[438px] max-w-[516px] w-full'>
+        <div className="max-w-[1024px] mx-auto flex">
+            <div className='relative -z-10 w-full h-[438px] max-w-[516px]'>
                 <img className='absolute -z-10 h-[438px] max-w-[516px]' src={man} alt="man" />
             </div>
             <div className='block mx-auto my-5'>
