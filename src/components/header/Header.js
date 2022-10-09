@@ -37,12 +37,12 @@ const Header = () => {
                         
                     </div>
                     <nav className='flex list-none text-sm justify-between items-stretch pb-1'>
-                        <li className='text-white'><a className='pb-5 px-3 hover:border-b-4 border-lime text-sm font-bold' href="">ГЛАВНАЯ</a></li>
-                        <li className='text-white'><a className='pb-5 px-3 hover:border-b-4 border-lime text-sm font-bold' href="">О НАС</a></li>
-                        <li className='text-white'><a className='pb-5 px-3 hover:border-b-4 border-lime text-sm font-bold' href="">ОТПРАВЬТЕ НАМ ПРЕДЛОЖЕНИЕ</a> </li>
-                        <li className='text-white'><a className='pb-5 px-3 hover:border-b-4 border-lime text-sm font-bold' href="">ЧЗВ</a></li>
-                        <li className='text-white'><a className='pb-5 px-3 hover:border-b-4 border-lime text-sm font-bold' href="">БЛОГ</a></li>
-                        <li className='text-white'><a className='pb-5 px-3 hover:border-b-4 border-lime text-sm font-bold' href="">КОНТАКТЫ</a></li>
+                        <li className='text-white'><a className='pb-5 px-3 hover:before:block before:content-[""] before:absolute before:w-20 before:h-[3px] before:bg-lime before:hidden before:-bottom-2 mb-12 before:rounded-l-sm text-sm font-bold' href="#">ГЛАВНАЯ</a></li>
+                        <li className='text-white'><a className='pb-5 px-3 hover:before:block before:content-[""] before:absolute before:w-16 before:h-[3px] before:bg-lime before:hidden before:-bottom-2 mb-12  before:rounded-l-sm text-sm font-bold' href="#">О НАС</a></li>
+                        <li className='text-white'><a className='pb-5 px-3 hover:before:block before:content-[""] before:absolute before:w-56 before:h-[3px] before:bg-lime before:hidden before:-bottom-2 mb-12 before:rounded-l-sm text-sm font-bold' href="#">ОТПРАВЬТЕ НАМ ПРЕДЛОЖЕНИЕ</a> </li>
+                        <li className='text-white'><a className='pb-5 px-3 hover:before:block before:content-[""] before:absolute before:w-12 before:h-[3px] before:bg-lime before:hidden before:-bottom-2 mb-12  before:rounded-l-sm text-sm font-bold' href="#">ЧЗВ</a></li>
+                        <li className='text-white'><a className='pb-5 px-3 hover:before:block before:content-[""] before:absolute before:w-14 before:h-[3px] before:bg-lime before:hidden before:-bottom-2 mb-12 before:rounded-l-sm text-sm font-bold' href="#">БЛОГ</a></li>
+                        <li className='text-white'><a className='pb-5 px-3 hover:before:block before:content-[""] before:absolute before:w-24 before:h-[3px] before:bg-lime before:hidden before:-bottom-2 mb-12 before:rounded-l-sm text-sm font-bold' href="#">КОНТАКТЫ</a></li>
                         <li><img src={flag} alt="" /></li>
                     </nav>
                 </div>
