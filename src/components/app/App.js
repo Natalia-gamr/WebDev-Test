@@ -13,6 +13,7 @@ const App = () => {
             <WhyUs/>
             <AboutUs/>
             <Advantages/>
+            <Footer/>
         </>
         
     )

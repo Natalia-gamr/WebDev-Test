@@ -1,6 +1,5 @@
 import city from '../../resources/city21.png'
 import { useFormik } from 'formik';
-import { postData } from '../../services/requests';
 import MyInput from './inputs';
 
 
@@ -45,6 +44,7 @@ const AutoForm = () => {
                                     value={formik.values.brand}
                                     label='Марка'
                                     onChange={formik.handleChange}
+                                    inputCN='w-24 h-5'
                                 />
                             </div>
                             <div className="relative mr-8 my-2">
@@ -53,7 +53,8 @@ const AutoForm = () => {
                                         type='text'
                                         label='Модель'
                                         value={formik.values.model}
-                                        onChange={formik.handleChange} 
+                                        onChange={formik.handleChange}
+                                        inputCN='w-24 h-5' 
                                     />
                                 </div>
                             <div className="relative mr-8 my-2">
@@ -63,6 +64,7 @@ const AutoForm = () => {
                                         label='Мотор'
                                         value={formik.values.motor}
                                         onChange={formik.handleChange} 
+                                        inputCN='w-24 h-5'
                                     />
                             </div>
                             <div className="relative mr-8 my-2">
@@ -72,6 +74,7 @@ const AutoForm = () => {
                                     label='Год'
                                     value={formik.values.year}
                                     onChange={formik.handleChange} 
+                                    inputCN='w-24 h-5'
                                 /> 
                             </div>
                             <div className="relative mr-8 my-2">
@@ -81,6 +84,7 @@ const AutoForm = () => {
                                     label='Топливо'
                                     value={formik.values.fuel}
                                     onChange={formik.handleChange} 
+                                    inputCN='w-24 h-5'
                                 />  
                             </div>
                             <div className="relative mr-8 my-2">
@@ -90,6 +94,7 @@ const AutoForm = () => {
                                     label='КПП'
                                     value={formik.values.gearbox}
                                     onChange={formik.handleChange} 
+                                    inputCN='w-24 h-5'
                                 />  
                             </div>
                             <div className="relative mr-8 my-2">
@@ -99,6 +104,7 @@ const AutoForm = () => {
                                     label='Пробег'
                                     value={formik.values.mileage}
                                     onChange={formik.handleChange} 
+                                    inputCN='w-24 h-5'
                                 />  
                             </div>
                             <div className="relative mr-8 my-2">
@@ -108,6 +114,7 @@ const AutoForm = () => {
                                     label='Техосмотр'
                                     value={formik.values.inspection}
                                     onChange={formik.handleChange} 
+                                    inputCN='w-24 h-5'
                                 />                                 
                             </div>
                             <div className="relative mr-8 my-2 ">
@@ -119,6 +126,7 @@ const AutoForm = () => {
                                     labelCN='after:content-[""] after:bg-lime after:border-2 after:border-lime after:rounded-sm after:absolute after:-right-1'
                                     required
                                     onChange={formik.handleChange}
+                                    inputCN='w-24 h-5'
                                 />  
                             </div>        
                                 <div className="my-2 mr-8">
@@ -140,8 +148,7 @@ const AutoForm = () => {
                                         label='Имя'
                                         value={formik.values.name}
                                         inputCN='w-40'
-                                        onChange={formik.handleChange} 
-
+                                        onChange={formik.handleChange}
                                     />                                         
                                 </div>
                                 <div className="relative basis-1/2 my-2">
@@ -152,7 +159,6 @@ const AutoForm = () => {
                                         value={formik.values.email}
                                         inputCN='w-40'
                                         onChange={formik.handleChange} 
-
                                     />
                                 </div>
                                 <div className="relative basis-1/2 my-2">
@@ -165,7 +171,6 @@ const AutoForm = () => {
                                         inputCN='w-40'
                                         required
                                         onChange={formik.handleChange} 
-
                                     /> 
                                 </div>
                                 <div className="relative basis-1/2 my-2">
@@ -176,7 +181,6 @@ const AutoForm = () => {
                                         value={formik.values.city}
                                         inputCN='w-40'
                                         onChange={formik.handleChange} 
-
                                     /> 
                                 </div>
                                 <div className="relative basis-full w-full my-2">
@@ -187,18 +191,17 @@ const AutoForm = () => {
                                         value={formik.values.message}
                                         inputCN='h-20 w-[353px]'
                                         onChange={formik.handleChange} 
-
                                     />  
                                 </div>
                                 <div className=" basis-full my-2">
                                     <input 
-                                    id="checkbox" 
-                                    type="checkbox" 
-                                    name='checkbox'
-                                    className="top-3 border-gray rounded-sm"
-                                    required
-                                    onChange={formik.handleChange} 
-/>  
+                                        id="checkbox" 
+                                        type="checkbox" 
+                                        name='checkbox'
+                                        className="top-3 border-gray rounded-sm"
+                                        required
+                                        onChange={formik.handleChange} 
+                                    />  
                                     <label className=" mx-auto text-xs text-center font-bold pl-2" htmlFor="checkbox">Я согласен(на), что фирма использует мои личные данные на основе <span className='
                                     block mx-auto text-lime'>Политики конфедициальности</span>  </label>
                                 </div>
