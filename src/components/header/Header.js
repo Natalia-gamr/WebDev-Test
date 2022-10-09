@@ -1,9 +1,9 @@
 import iconAuto from '../../resources/icon-auto.png'
-import phone from '../../resources/phone.svg'
-import mail from '../../resources/mail.svg'
-import facebook from '../../resources/facebook.svg'
-import vk from '../../resources/vk.svg'
-import flag from '../../resources/flag.svg'
+import phone from '../../resources/icons/phone.svg'
+import mail from '../../resources/icons/mail.svg'
+import facebook from '../../resources/icons/facebook.svg'
+import vk from '../../resources/icons/vk.svg'
+import flag from '../../resources/icons/flag.svg'
 
 
 const Header = () => {

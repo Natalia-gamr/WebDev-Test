@@ -11,6 +11,7 @@ module.exports = {
     colors: {
       'lime': '#9CC634',
       'dark-lime': '#A6C34F',
+      'pale-lime': '#BFD093',
       'blue': '#072446',
       'dark-blue': '#0D2444',
       'white': 'white',

@@ -1,6 +1,7 @@
 import city from '../../resources/city21.png'
 import { useFormik } from 'formik';
 import { postData } from '../../services/requests';
+import MyInput from './inputs';
 
 
 
@@ -30,19 +31,6 @@ const AutoForm = () => {
           },
     })
 
-    const MyInput = ({inputCN, labelCN, label,...props}) => {
-        return (
-            <>
-                <label className={`absolute -top-1 left-1 z-20 bg-white text-dark-blue text-xs font-bold px-1 ${labelCN}`} htmlFor={props.name}>{label}</label>
-                <input 
-                    {...props}
-                    className={`border border-gray -z-10 rounded-sm w-24 h-5 text-sm ${inputCN}`}
-                    onChange={formik.handleChange} 
-                />  
-            </>
-        )
-    }    
-
     return (
         <div className="my-24 flex justify-between xl:mx-auto md:ml-[110px] max-w-[1024px]">
             <div className="">
@@ -56,23 +44,26 @@ const AutoForm = () => {
                                     type='text'
                                     value={formik.values.brand}
                                     label='Марка'
+                                    onChange={formik.handleChange}
                                 />
                             </div>
                             <div className="relative mr-8 my-2">
-                            <MyInput
-                                    name='model'
-                                    type='text'
-                                    label='Модель'
-                                    value={formik.values.model}
-                                />
-                            </div>
+                                <MyInput
+                                        name='model'
+                                        type='text'
+                                        label='Модель'
+                                        value={formik.values.model}
+                                        onChange={formik.handleChange} 
+                                    />
+                                </div>
                             <div className="relative mr-8 my-2">
-                            <MyInput
-                                    name='motor'
-                                    type='text'
-                                    label='Мотор'
-                                    value={formik.values.motor}
-                                />
+                                <MyInput
+                                        name='motor'
+                                        type='text'
+                                        label='Мотор'
+                                        value={formik.values.motor}
+                                        onChange={formik.handleChange} 
+                                    />
                             </div>
                             <div className="relative mr-8 my-2">
                                 <MyInput
@@ -80,6 +71,7 @@ const AutoForm = () => {
                                     type='number'
                                     label='Год'
                                     value={formik.values.year}
+                                    onChange={formik.handleChange} 
                                 /> 
                             </div>
                             <div className="relative mr-8 my-2">
@@ -88,6 +80,7 @@ const AutoForm = () => {
                                     type='text'
                                     label='Топливо'
                                     value={formik.values.fuel}
+                                    onChange={formik.handleChange} 
                                 />  
                             </div>
                             <div className="relative mr-8 my-2">
@@ -96,6 +89,7 @@ const AutoForm = () => {
                                     type='text'
                                     label='КПП'
                                     value={formik.values.gearbox}
+                                    onChange={formik.handleChange} 
                                 />  
                             </div>
                             <div className="relative mr-8 my-2">
@@ -104,6 +98,7 @@ const AutoForm = () => {
                                     type='number'
                                     label='Пробег'
                                     value={formik.values.mileage}
+                                    onChange={formik.handleChange} 
                                 />  
                             </div>
                             <div className="relative mr-8 my-2">
@@ -112,6 +107,7 @@ const AutoForm = () => {
                                     type='text'
                                     label='Техосмотр'
                                     value={formik.values.inspection}
+                                    onChange={formik.handleChange} 
                                 />                                 
                             </div>
                             <div className="relative mr-8 my-2 ">
@@ -122,11 +118,14 @@ const AutoForm = () => {
                                     value={formik.values.price}
                                     labelCN='after:content-[""] after:bg-lime after:border-2 after:border-lime after:rounded-sm after:absolute after:-right-1'
                                     required
+                                    onChange={formik.handleChange}
                                 />  
                             </div>        
                                 <div className="my-2 mr-8">
                                     <label htmlFor="file" className='relative block text-center pt-2 bg-lime rounded-sm text-xs font-bold text-white w-[352px] h-7 text-sm'>Добавить фото
-                                        <input className='absolute top-0 right-0 w-[352px] h-7 opacity-0'  type="file" name='file'/>
+                                        <input className='absolute top-0 right-0 w-[352px] h-7 opacity-0'  type="file" name='file'
+                                        onChange={formik.handleChange} 
+                                        />
                                     </label>
                                 </div>
                             </div>
@@ -141,6 +140,8 @@ const AutoForm = () => {
                                         label='Имя'
                                         value={formik.values.name}
                                         inputCN='w-40'
+                                        onChange={formik.handleChange} 
+
                                     />                                         
                                 </div>
                                 <div className="relative basis-1/2 my-2">
@@ -150,6 +151,8 @@ const AutoForm = () => {
                                         label='Почта'
                                         value={formik.values.email}
                                         inputCN='w-40'
+                                        onChange={formik.handleChange} 
+
                                     />
                                 </div>
                                 <div className="relative basis-1/2 my-2">
@@ -161,6 +164,8 @@ const AutoForm = () => {
                                         labelCN='after:absolute after:-right-1 after:border-2 after:border-lime after:rounded-md after:bg-lime'
                                         inputCN='w-40'
                                         required
+                                        onChange={formik.handleChange} 
+
                                     /> 
                                 </div>
                                 <div className="relative basis-1/2 my-2">
@@ -170,6 +175,8 @@ const AutoForm = () => {
                                         label='Город'
                                         value={formik.values.city}
                                         inputCN='w-40'
+                                        onChange={formik.handleChange} 
+
                                     /> 
                                 </div>
                                 <div className="relative basis-full w-full my-2">
@@ -179,6 +186,8 @@ const AutoForm = () => {
                                         label='Сообщение'
                                         value={formik.values.message}
                                         inputCN='h-20 w-[353px]'
+                                        onChange={formik.handleChange} 
+
                                     />  
                                 </div>
                                 <div className=" basis-full my-2">
@@ -187,7 +196,9 @@ const AutoForm = () => {
                                     type="checkbox" 
                                     name='checkbox'
                                     className="top-3 border-gray rounded-sm"
-                                    required/>  
+                                    required
+                                    onChange={formik.handleChange} 
+/>  
                                     <label className=" mx-auto text-xs text-center font-bold pl-2" htmlFor="checkbox">Я согласен(на), что фирма использует мои личные данные на основе <span className='
                                     block mx-auto text-lime'>Политики конфедициальности</span>  </label>
                                 </div>
