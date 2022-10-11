@@ -1,9 +1,15 @@
 /** @type {import('tailwindcss').Config} */
+
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {
-      
+    extend: {      
+    },
+    screens: {
+      'xs': {'max':'416px'},
+      ...defaultTheme.screens,
     },
     fontFamily: {
       'sans': ['Roboto', 'sans-serif']
@@ -12,6 +18,7 @@ module.exports = {
       'lime': '#9CC634',
       'dark-lime': '#A6C34F',
       'pale-lime': '#BFD093',
+      'transparent-lime': '#FEFFFB',
       'blue': '#072446',
       'dark-blue': '#0D2444',
       'white': 'white',
