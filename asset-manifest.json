@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/webDev-test/static/css/main.337bd726.css",
+    "main.js": "/webDev-test/static/js/main.b9f60137.js",
+    "static/media/Illustration-4.png": "/webDev-test/static/media/Illustration-4.3ec2cb03a226b81f62c3.png",
+    "static/media/city21.png": "/webDev-test/static/media/city21.4fddbe2cd9e63d6c0e4c.png",
+    "static/media/Illustration-2.png": "/webDev-test/static/media/Illustration-2.85f2e317ef03dbe128e6.png",
+    "static/media/vk.svg": "/webDev-test/static/media/vk.258df23628644086c825eb022914c82e.svg",
+    "static/media/hands.svg": "/webDev-test/static/media/hands.440ffbd74df362946fb21e0e16bbe914.svg",
+    "static/media/reward.svg": "/webDev-test/static/media/reward.956cc3184c59c4a176cd1741d984812a.svg",
+    "static/media/inst.svg": "/webDev-test/static/media/inst.308f8ad9405edb959489ec22f194f4a2.svg",
+    "static/media/like.svg": "/webDev-test/static/media/like.649d0c4a35cebc03ee04a2555aeaa967.svg",
+    "static/media/document.svg": "/webDev-test/static/media/document.02c91463595fce66693e3967d2cd364d.svg",
+    "static/media/mail-unread.svg": "/webDev-test/static/media/mail-unread.6c49117987addb0aced78defcb9d0981.svg",
+    "static/media/euro.svg": "/webDev-test/static/media/euro.0b9c3cc4815cc0bb1ec6edbac89de01e.svg",
+    "static/media/twitter.svg": "/webDev-test/static/media/twitter.12d99758509fb8d7691d81b73ca66641.svg",
+    "static/media/help-circle.svg": "/webDev-test/static/media/help-circle.2f2e94e0eb75fb5a235d0f890aecfce0.svg",
+    "static/media/chatbox-ellipses.svg": "/webDev-test/static/media/chatbox-ellipses.094c43d61fb897721f2b750cfa467664.svg",
+    "static/media/crown.svg": "/webDev-test/static/media/crown.7300dfa374683af06479bed86890d7e4.svg",
+    "static/media/people.svg": "/webDev-test/static/media/people.65be5877c72af7612b13288ce9e6e50a.svg",
+    "static/media/mail-lime.svg": "/webDev-test/static/media/mail-lime.d7ccb3d5d9993422b82bbdff1a8e6cef.svg",
+    "static/media/mail.svg": "/webDev-test/static/media/mail.5796625be95b3fef76790d571bcc1ba5.svg",
+    "static/media/clock.svg": "/webDev-test/static/media/clock.8a06e3660d75ddab4f17c740f656d11a.svg",
+    "static/media/home.svg": "/webDev-test/static/media/home.1f939c03f966490b1e6ed1c3ce646664.svg",
+    "static/media/location.svg": "/webDev-test/static/media/location.3585612ce041842f63edfd1c40bbcbaf.svg",
+    "static/media/phone-lime.svg": "/webDev-test/static/media/phone-lime.5052475cb2f0e07999dee81c472f7f78.svg",
+    "static/media/phone.svg": "/webDev-test/static/media/phone.8955d0920355a9f7e4975a3e847b109f.svg",
+    "index.html": "/webDev-test/index.html",
+    "static/media/ok.svg": "/webDev-test/static/media/ok.048ea7837cc2fda6093172c9e95458c4.svg",
+    "static/media/facebook.svg": "/webDev-test/static/media/facebook.39dcf064e2a8de9acb37ecc2b448b9e9.svg",
+    "static/media/menu.svg": "/webDev-test/static/media/menu.78710a2cda69ad49b3f97040b758a8b5.svg",
+    "static/media/flag.svg": "/webDev-test/static/media/flag.4eb2967bfd06f006d4cf661bd83684bb.svg",
+    "main.337bd726.css.map": "/webDev-test/static/css/main.337bd726.css.map",
+    "main.b9f60137.js.map": "/webDev-test/static/js/main.b9f60137.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.337bd726.css",
+    "static/js/main.b9f60137.js"
+  ]
+}
